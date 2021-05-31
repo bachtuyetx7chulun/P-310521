@@ -1,8 +1,8 @@
-# <center style="color: gray">P-310521</center>
+# <p align="center" style="color: gray">P-310521</p>
 
-<center> 
+<p align="center"> 
     <img src="https://i.redd.it/l766hxgnvl831.png" />
-</center>
+</p>
 <br />
 
 `#GOOGLE CONSOLE` `#YTB DATA V3`
