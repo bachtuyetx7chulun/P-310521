@@ -1,4 +1,4 @@
-# <p align="center" style="color: gray">P-310521</p>
+# <p align="center" color="gray">P-310521</p>
 
 <p align="center"> 
     <img src="https://i.redd.it/l766hxgnvl831.png" />
