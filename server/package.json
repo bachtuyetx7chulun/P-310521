@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for titastic ytb and github",
+  "main": "main.js",
+  "author": "Medium Hieu",
+  "license": "MIT",
+  "private": true
+}

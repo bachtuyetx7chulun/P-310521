@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  // background: #f1f1f1;
+}
+
+.shadow {
+  &--gray {
+    -webkit-box-shadow: 0px 10px 30px 5px rgba(201, 201, 201, 1);
+    -moz-box-shadow: 0px 10px 30px 5px rgba(201, 201, 201, 1);
+    box-shadow: 0px 10px 30px 5px rgba(201, 201, 201, 1);
+  }
+
+  &--blue {
+    -webkit-box-shadow: 0px 10px 30px 5px rgba(158, 184, 255, 1);
+    -moz-box-shadow: 0px 10px 30px 5px rgba(158, 184, 255, 1);
+    box-shadow: 0px 10px 30px 5px rgba(158, 184, 255, 1);
+  }
+}
