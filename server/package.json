@@ -1,5 +1,5 @@
 {
-    "name": "server",
+    "name": "@app/server",
     "version": "1.0.0",
     "description": "Server for titastic ytb and github",
     "main": "main.js",
