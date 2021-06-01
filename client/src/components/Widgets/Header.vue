@@ -1,6 +1,8 @@
 <template>
-  <div>
-  </div>
+  <section class="header">
+    <nav class="container">
+    </nav>
+  </section>
 </template>
 
 <script>
