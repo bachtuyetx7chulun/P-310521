@@ -5,6 +5,10 @@
   "repository": "https://github.com/bachtuyetx7chulun/P-310521.git",
   "author": "bachtuyetx7chulun <contact.truongtrunghieu@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "12.10.0",
+    "yarn": "1.22.10"
+  },
   "scripts": {
     "start": "cd server && yarn start"
   }
