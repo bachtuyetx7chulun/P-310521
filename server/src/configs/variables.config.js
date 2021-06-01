@@ -7,3 +7,5 @@ export const YOUTUBE_URL = process.env.YOUTUBE_URL
 
 export const GITHUB_OWNER = process.env.GITHUB_OWNER
 export const GITHUB_URL = process.env.GITHUB_URL
+
+export const APP_PORT = process.env.APP_PORT || 4000
