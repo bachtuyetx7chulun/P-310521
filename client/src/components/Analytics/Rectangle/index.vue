@@ -1,7 +1,6 @@
 <template>
   <div class="box box--rectangle box__color--white shadow--blue">
     <div class="box__image">
-      <!-- <img src="@/assets/images/signal-solid.svg" alt="upper" /> -->
       <svg
         aria-hidden="true"
         focusable="false"
@@ -28,8 +27,6 @@
       </p>
       <div class="box__title">
         <p>Thus, 20:20 pm 01/06/2021</p>
-        <!-- <p><span>32</span> <sub>/ Subs</sub></p> -->
-        <!-- <div class="box__exit">
           <svg
             aria-hidden="true"
             focusable="false"
