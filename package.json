@@ -1,0 +1,11 @@
+{
+  "name": "P-310521",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bachtuyetx7chulun/P-310521.git",
+  "author": "bachtuyetx7chulun <contact.truongtrunghieu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd server && yarn start"
+  }
+}
