@@ -24,14 +24,22 @@ body {
 }
 
 .container {
-  max-width: 87.5rem;
+  max-width: 36rem;
   margin: 0 auto;
-
-  background-color: #f1f1f1;
 }
 
 .p {
   &--1 {
     padding: 0.5rem;
+  }
+}
+
+.mt {
+  &--3 {
+    margin-top: 3rem;
+  }
+
+  &--5 {
+    margin: 5rem;
   }
 }

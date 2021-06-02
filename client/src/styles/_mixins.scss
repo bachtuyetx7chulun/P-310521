@@ -1,0 +1,11 @@
+$color: (
+  "red": "#db5046",
+  "blue": "#476ec9",
+  "purple": "#8c47c9",
+  "orange": "#c97447",
+);
+
+@mixin randomColorSVG {
+  fill: map-get($color, "blue") !important;
+  color: map-get($color, "blue") !important;
+}
