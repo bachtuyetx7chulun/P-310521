@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "client": "yarn workspace @app/client serve",
-    "serve": "yarn workspace @app/server start"
+    "serve": "yarn workspace @app/server dev",
+    "delete": "yarn workspace @app/server pm2 delete ecosystem.json"
   },
   "workspaces": [
     "client/",

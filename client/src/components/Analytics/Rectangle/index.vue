@@ -87,13 +87,11 @@ export default {
   created() {
     setTimeout(() => {
       this.interval = setInterval(() => {
-        console.log(this.displayCount);
         this.displayCount += 1;
       }, this.speed);
-    }, 500);
+    }, 700);
   },
   updated() {
-    console.log(this.count);
     if (this.displayCount >= parseInt(this.count)) {
       clearInterval(this.interval);
       this.interval = null;

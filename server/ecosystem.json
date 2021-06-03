@@ -1,0 +1,26 @@
+{
+    "apps": [
+        {
+            "name": "worker",
+            "script": "services/cronJob.js",
+            "watch": true,
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        },
+        {
+            "name": "api-app",
+            "script": "src/main.js",
+            "watch": true,
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}

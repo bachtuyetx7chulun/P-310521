@@ -38,26 +38,29 @@ export default {
           const { data } = result;
           // console.log(data.data);
           this.youtubeData = data.data;
-          this.youtubeCount = this.youtubeData?.items[0]?.statistics?.videoCount;
+          this.youtubeCount =
+            this.youtubeData?.items[0]?.statistics?.videoCount;
         })
         .catch((error) => {
-          // console.log(error);
+          setTimeout(() => {
+            this.getYoutubeData();
+          }, 10000);
         });
     },
 
     getGithubData() {
       axios
-        .get("/github")
+        .get("/github/user")
         .then((result) => {
           const { data } = result;
           // console.log(data.data);
           this.githubData = data.data;
-          this.githubCount = this.githubData?.length + "";
+          this.githubCount = this.githubData?.public_repos + "";
         })
         .catch((error) => {
           setTimeout(() => {
-            // this.getGithubData();
-          }, 1000);
+            this.getGithubData();
+          }, 10000);
         });
     },
   },
